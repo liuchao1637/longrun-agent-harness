@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Final Delivery State",
+  "type": "object",
+  "required": ["task_id", "delivery_status"],
+  "properties": {
+    "task_id": { "type": "string" },
+    "delivery_status": {
+      "type": "string",
+      "enum": ["not_ready", "pending_send", "sent", "completed"]
+    },
+    "visible_delivery_receipt": {
+      "type": ["object", "null"],
+      "properties": {
+        "surface": { "type": "string" },
+        "message_id": { "type": "string" },
+        "sent_at": { "type": "string" }
+      }
+    }
+  }
+}
+

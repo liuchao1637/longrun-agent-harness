@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Visible Delivery Receipt",
+  "type": "object",
+  "required": ["surface", "message_id", "sent_at"],
+  "properties": {
+    "surface": { "type": "string" },
+    "message_id": { "type": "string" },
+    "sent_at": { "type": "string" }
+  }
+}
+

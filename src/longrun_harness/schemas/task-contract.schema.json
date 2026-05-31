@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Longrun Agent Harness Task",
+  "type": "object",
+  "required": ["id", "harness_level", "contract_file", "plan_file", "handoff_file", "qa_file", "evidence_dir"],
+  "properties": {
+    "id": { "type": "string" },
+    "harness_level": { "type": "string", "enum": ["L2", "L3", "L4"] },
+    "contract_file": { "type": "string" },
+    "plan_file": { "type": "string" },
+    "handoff_file": { "type": "string" },
+    "qa_file": { "type": "string" },
+    "evidence_dir": { "type": "string" },
+    "validator_status": { "type": "string" },
+    "evaluator_status": { "type": "string" }
+  }
+}
+

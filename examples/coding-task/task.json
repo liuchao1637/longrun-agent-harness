@@ -1,0 +1,12 @@
+{
+  "id": "example-coding-task",
+  "harness_level": "L4",
+  "contract_file": "examples/coding-task/contract.md",
+  "plan_file": "examples/coding-task/plan.md",
+  "handoff_file": "examples/coding-task/handoff.md",
+  "qa_file": "examples/coding-task/qa.md",
+  "evidence_dir": "examples/coding-task/evidence",
+  "validator_status": "pending",
+  "evaluator_status": "pending"
+}
+
